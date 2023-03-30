@@ -1,9 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Image Example</title>
-</head>
-<body>
-  <img src="images/zendaya-8192.jpg" alt="Example Image">
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Game Board</title>
+    <style>
+      /* styles for the game board */
+      .game-board {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+      }
+      .game-tile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #eee;
+        border-radius: 10px;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+      }
+      .game-tile img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="game-board">
+      <div class="game-tile"><img src="zendaya-8192.jpg" alt=""></div>
+      <div class="game-tile"><img src="zendaya-8192.jpg" alt=""></div>
+      <div class="game-tile"><img src="zendaya-8192.jpg" alt=""></div>
+      <div class="game-tile"><img src="zendaya-8192.jpg" alt=""></div>
+      <div class="game-tile"><img src="zendaya-8192.jpg" alt=""></div>
+      <div class="game-tile"><img src="zendaya-8192.jpg" alt=""></div>
+      <div class="game-tile"><img src="zendaya-8192.jpg" alt=""></div>
+      <div class="game-tile"><img src="zendaya-8192.jpg" alt=""></div>
+      <div class="game-tile"><img src="zendaya-8192.jpg" alt=""></div>
+      <div class="game-tile"><img src="zendaya-8192.jpg" alt=""></div>
+      <div class="game-tile"><img src="zendaya-8192.jpg" alt=""></div>
+      <div class="game-tile"><img src="zendaya-8192.jpg" alt=""></div>
+      <div class="game-tile"><img src="zendaya-8192.jpg" alt=""></div>
+      <div class="game-tile"><img src="zendaya-8192.jpg" alt=""></div>
+      <div class="game-tile"><img src="zendaya-8192.jpg" alt=""></div>
+      <div class="game-tile"><img src="zendaya-8192.jpg" alt=""></div>
+    </div>
+  </body>
 </html>
